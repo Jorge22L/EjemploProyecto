@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1589473696 source:c:\users\elsner\documents\clases\semestre\1s2020\metodología de la programación\ejemplos\estructuraproyecto\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	"Cliente.h"
+	"menu1.cpp"
+
+1589475058 c:\users\elsner\documents\clases\semestre\1s2020\metodología de la programación\ejemplos\estructuraproyecto\cliente.h
+
+1589474759 c:\users\elsner\documents\clases\semestre\1s2020\metodología de la programación\ejemplos\estructuraproyecto\menu1.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	"Cliente.h"
+	"agregarCliente.cpp"
+
+1589473696 c:\users\elsner\documents\clases\semestre\1s2020\metodología de la programación\ejemplos\estructuraproyecto\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	"Cliente.h"
+	"menu1.cpp"
+
+1589475725 c:\users\elsner\documents\clases\semestre\1s2020\metodología de la programación\ejemplos\estructuraproyecto\agregarcliente.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	"Cliente.h"
+
