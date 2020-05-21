@@ -4,9 +4,9 @@
 typedef struct
 {
     char Cedula[20];
-    char Nombre[100];
+    char Nombre[50];
     char Telefono[20];
-    char Correo[50];
+    char Correo[20];
     char Direccion[100];
 }Cliente;
 

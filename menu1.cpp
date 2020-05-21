@@ -6,19 +6,23 @@
 #include "Cliente.h"
 
 //Sources externos
-#include "agregarCliente.cpp"
+
 //prototipos
+void MenuPrincipal(int);
 void agregarCliente();
+void listarCliente();
 
 using namespace std;
 
 void menu1()
 {
+    system("cls");
     int opc;
     cout<<"  Nombre de Proyecto    \n\n";
     cout<<" ===== MENU =====       \n";
     cout<<"| 1. Agregar Cliente    |\n";
-    cout<<"| 2. Salir              |\n";
+    cout<<"| 2. Listar Clientes    |\n";
+    cout<<"| 3. Salir              |\n";
     cout<<" ----------------\n\n";
     cout<<"Opcion: ";
     cin>>opc; // Almacena opcion del menú principal
@@ -33,7 +37,13 @@ void menu1()
 
     case 2:
         system("cls");
-        //MenuPrincipal();
+        cout<<"************ Listado de Clientes ****************"<<endl<<endl;
+        listarCliente();
+        break;
+
+    case 3:
+        system("cls");
+        MenuPrincipal(opc);
         break;
     }
 }

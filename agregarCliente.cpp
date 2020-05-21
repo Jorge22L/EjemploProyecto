@@ -9,11 +9,12 @@
 #include "Cliente.h"
 
 using namespace std;
+
 void agregarCliente()
 {
     Cliente cliente1;
     ofstream datos;
-    datos.open("clientes.txt");
+    datos.open("clientes.txt",ios::app); //Abre el archivo en modo de edición
 
     cout<<"Nuevo Registro de cliente"<<endl;
     cout<<"Cedula: ";
@@ -45,4 +46,31 @@ void agregarCliente()
     datos<<cliente1.Correo<<endl;
 
     datos.close();
+}
+
+void listarCliente()
+{
+    // 1 - Abrir el archivo
+    // 2 - Leer el archivo
+    // 3 - Mostrar el contenido del archivo
+
+    ifstream lectura;
+    string texto; //aqui es donde guardaré todo el contenido del archivo
+
+    lectura.open("clientes.txt", ios::in); //Abrimos el archivo en modo Lectura
+
+    if(lectura.fail()) // Si falla la apertura del archivo
+    {
+        cout<<"No se pudo abrir el archivo"<<endl;
+        exit(1);
+    }
+
+    while(!lectura.eof()) //eof -> End of File ... Mientras no sea el final del archivo
+    {
+        getline(lectura, texto);
+        cout<<texto<<endl;
+    }
+
+    lectura.close();
+
 }

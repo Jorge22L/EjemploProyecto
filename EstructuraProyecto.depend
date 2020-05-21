@@ -31,3 +31,42 @@
 	<fstream>
 	"Cliente.h"
 
+1590078169 source:c:\users\user\documents\clases\uca\ejemplosc\estructuraproyecto\main.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	"Cliente.h"
+
+1590077771 c:\users\user\documents\clases\uca\ejemplosc\estructuraproyecto\cliente.h
+
+1589474759 c:\users\user\documents\clases\uca\ejemplosc\estructuraproyecto\menu1.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	"Cliente.h"
+	"agregarCliente.cpp"
+
+1590075246 c:\users\user\documents\clases\uca\ejemplosc\estructuraproyecto\agregarcliente.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	"Cliente.h"
+
+1590075272 source:c:\users\user\documents\clases\uca\ejemplosc\estructuraproyecto\menu1.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	"Cliente.h"
+
+1590079091 source:c:\users\user\documents\clases\uca\ejemplosc\estructuraproyecto\agregarcliente.cpp
+	<iostream>
+	<stdio.h>
+	<windows.h>
+	<stdlib.h>
+	<string.h>
+	<fstream>
+	"Cliente.h"
+
